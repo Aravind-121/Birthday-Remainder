@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Birthday Remainder",
+    "description": "Don't forget your close once birthdays..",
+    "version": "1.0",
+    "icons": {
+      "128": "birthday.png",
+      "48": "birthday.png",
+      "16": "birthday.png"
+    },
+    "browser_action":{
+        "default_popup": "popup.html"
+    },
+    "permissions":[
+        "storage",
+        "notifications"
+    ]
+}
